@@ -16,13 +16,13 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predict():
     
-    image=load_img(image_path,target_size=(224,224))
+    # image=load_img(image_path,target_size=(224,224))
     
     pred=model.predict(image)
 
 
 
-    return (pred)
+    return "hello world!"
 
 if __name__ == "__main__":
        app.run(debug=True)

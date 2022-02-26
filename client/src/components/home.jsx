@@ -5,10 +5,10 @@ function Home() {
   return (
     <div>
       <div className='home'>
-      <div className="container">
+      <div className="container homehead">
           <h1>Lorem ipsum dolor sit.</h1>
         </div>
-        <div className="content">
+        <div className="content homecontent">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nisi, hic optio tempore nobis rem.
         </div>
         <div className="buttons">
